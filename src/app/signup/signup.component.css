@@ -1,0 +1,51 @@
+button {
+  color: darkgreen;
+  margin-right:16px;
+}
+.form-field{margin-bottom:10px;width:300px}
+
+h2{
+  color: darkgreen;
+}
+
+body {
+  /* The image used */
+  background-image: url("src\assets\images\12.jpg");
+
+  /* Control the height of the image */
+  min-height: 750px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+
+  color:darkgreen !important;
+ }
+
+ ::ng-deep.mat-form-field-underline {
+  
+  background-color:hsl(0, 0%, 100%) !important;
+} 
+
+::ng-deep.mat-form-field-ripple {
+ /*change color of underline when focused*/
+ background-color:darkgreen !important;
+}
+
+::ng-deep.mat-form-field-label{
+  
+        color:darkgreen;
+     }
+     .signup{
+      margin-top: 30px;
+       margin-left:38%;
+       height:500px;
+       width :300px;
+       background-color:rgba(218, 168, 207, 0.73);
+       
+     }

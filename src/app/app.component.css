@@ -1,0 +1,52 @@
+#dashboard {
+    width: 115px;
+    height: 40px;
+    border-radius: 5 px;
+}
+
+.navbar {
+    background:#850c4a;
+    color: rgb(255, 255, 255);
+    font-family:fantasy ;
+ }
+
+#logout {
+    width: 115px;
+    height: 40px;
+    border-radius: 5 px;
+}
+
+#signup {
+    width: 115px;
+    height: 40px;
+    border-radius: 5 px;
+}
+#favorites {
+    width: 115px;
+    height: 40px;
+    border-radius: 5 px;
+    
+}
+
+.navbar {
+    justify-content: space-between;
+}
+span {
+    padding-right: 1rem;
+}
+
+button {
+    margin-right:16px;
+    height: 40px;
+    width: 120px;
+}
+mat-form-field {
+    margin-right:16px;
+    height: 70px;
+}
+h1{
+    font-weight: bolder;
+    font-size: larger;
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px yellow;
+}
+

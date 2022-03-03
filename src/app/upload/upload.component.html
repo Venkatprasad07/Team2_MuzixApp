@@ -1,0 +1,18 @@
+<body><br>
+<br>
+<h3>Upload your Profile image</h3>
+<form>
+    <div class="form-group">
+         <input type="file" (change)="onImageUpload($event)" /> 
+         <br><br>
+         <div *ngIf="selected">
+           <input type="button" (click)="imageUploadAction()" value="Upload Image" class="btn1"/>
+         </div>
+        
+    </div>
+ 
+ </form>
+
+ {{service.imageSuccessResponse}}
+</body>
+ <router-outlet></router-outlet>
